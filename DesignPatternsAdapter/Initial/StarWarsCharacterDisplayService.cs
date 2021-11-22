@@ -1,12 +1,10 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Newtonsoft.Json;
 
-namespace DesignPatternsAdapter
+namespace DesignPatternsAdapter.Initial
 {
     public class StarWarsCharacterDisplayService
     {

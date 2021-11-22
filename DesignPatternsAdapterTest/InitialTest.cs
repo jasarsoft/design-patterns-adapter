@@ -1,15 +1,15 @@
-using DesignPatternsAdapter;
+using DesignPatternsAdapter.Initial;
 using System.Threading.Tasks;
 using Xunit;
 using Xunit.Abstractions;
 
 namespace DesignPatternsAdapterTest
 {
-    public class TestRunner1
+    public class InitialTest
     {
         private readonly ITestOutputHelper _output;
 
-        public TestRunner1(ITestOutputHelper output)
+        public InitialTest(ITestOutputHelper output)
         {
             _output = output;
         }
